@@ -26,7 +26,9 @@ const Nav = () => {
         <nav className="flex items-center px-3 bg-gray-300 shadow-sm text-gray-500 dark:bg-dark-bg dark:text-white border-b">
             <IconNav />
             <h1 className="font-bold text-xl">CALCULADORA</h1>
-            <button onClick={handleChangeTheme} className='ml-auto bg-gray-400 p-2 text-black rounded-md dark:bg-dark-card dark:text-white' >
+            <button 
+            onClick={handleChangeTheme} 
+            className='ml-auto p-2 bg-gray-100 text-gray-400 font-bold rounded-md dark:bg-dark-card dark:text-white' >
                 {theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro'}
             </button>
         </nav>
