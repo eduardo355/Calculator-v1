@@ -28,7 +28,7 @@ const Nav = () => {
             <h1 className="font-bold text-xl">CALCULADORA</h1>
             <button 
             onClick={handleChangeTheme} 
-            className='ml-auto p-2 bg-gray-100 text-gray-400 font-bold rounded-md dark:bg-dark-card dark:text-white' >
+            className='ml-auto p-2 bg-gray-100 text-gray-400 font-bold rounded-md dark:bg-orange-500 dark:text-white hover:dark:bg-white hover:dark:text-black' >
                 {theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro'}
             </button>
         </nav>
